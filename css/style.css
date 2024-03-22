@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+/*formatação de altura do corpo da pagina*/
+body {
+    height: 100vh;
+}
+/*formatação do cabeçalho, sepração e também espaçamento entre os nomes dos botões*/
+header{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #05072F;
+}
+/*formatação do nome (MUSIC) */
+header h2{
+    color: #ffffff;
+    font-size: 35px;
+}
+/*formatação do nome FECAF dentro SPAN */
+.fecaf{
+    color: red;
+}
+
+nav a{
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.login a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+.login .create {
+    color: red;
+
+}
+.login span{
+    color: red;
+}
+main{
+    display: flex;
+    background-color: #01041B;
+
+}
+
+.imagem img{
+    width: 750px;
+    height: 570px;
+
+}
+
+.conteudo {
+    margin-left: 40px;
+}
+
+.conteudo h1{
+    font-size: 100px;
+    color: white;
+}
+
+.conteudo span{
+    color: red;
+}
+.conteudo p{
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/*formatação dos dois botões dowload e start, tamanho, largura, comprimento*/
+.conteudo button {
+    width: 230px;
+    height: 70px;
+    top: 837px;
+    left: 89px;
+    padding: 10.33px 20.66px 10.33px 20.66px;
+    border-radius: 45px;
+    margin-top: 60px;
+    color: #ffffff;
+    font-size: 20px;
+}
+/*formatação da cor do primeiro botão dowload*/
+
+.conteudo .dowload {
+    margin-right: 50px;
+    background-color: red
+}
+/*formatação da cor do segundo botão (start)*/
+.conteudo .start {
+    background-color: #410093;
+}
+/*formatação do nome Rodapé*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #05072F;
+    width: 100%;
+    height: 50px;
+}
